@@ -74,11 +74,13 @@ console.log(teacher.old()); //NaN why? because of local scope  of this in arrow 
 const range = {
     start:10,
     end:50,
-    check: (num)= >{
-        if(num >= range.start && num <= range.end){
-        return true;
-}
+    check: (num)=> {
+        if(num >= range.start && num <= range.end)
+        {
+        return true;}
 return false;
-}
-}
+};
+
+
+
 console.log(range.check(30));
