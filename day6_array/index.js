@@ -65,8 +65,33 @@ const array= [...first , ...second ];
 
 //Loop and print all the values of the result array
 
-for(i=0; i<array.length; i++){
+for(i=0; i<array.length; i++){ //here length is method and accessed by . operator
 
 console.log(array[i]);
 }
 // console.log({array});
+
+//google mozill js array
+
+// Write a js array solution to add new element in the array
+const newArr = [1,2];
+//now use array method to add [0,1,2]
+console.log(newArr.unshift(0)) ; //output will be 3
+console.log({newArr});
+
+//Write a js array method solution to convert Array to string
+
+const testString="1,2";
+console.log(testString.split(",")); //this will split the string into an array using comma as separator
+
+//sort in Ascending order by age => small to big
+const people =  [{name:'raktim',age:30},
+                {name:"sita", age:20},
+                {name: 'Ram', age :15}
+            ];
+
+
+
+
+
+
