@@ -78,6 +78,7 @@ const characters = [
     // 4 Get all female characters
     const female = characters.filter((female)=>female.gender==='female');
     console.log(female);
+    //
 
     // SORT
 
